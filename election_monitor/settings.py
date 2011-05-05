@@ -117,15 +117,13 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
     'django.contrib.admin',
-    # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
     'smart_selects',
     'django_static',
     'election_monitor.centro',
     'election_monitor.ubicacion',
-    'election_monitor.exitpolls',
+    'election_monitor.exit_poll',
 )
 
 # A sample logging configuration. The only tangible logging

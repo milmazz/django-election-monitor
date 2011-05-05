@@ -8,7 +8,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^centros/', include('election_monitor.centro.urls')),
-    (r'^exitpolls/', include('election_monitor.exitpolls.urls')),
+    (r'^exitpolls/', include('election_monitor.exit_poll.urls')),
 
     (r'^accounts/login/$', 'django.contrib.auth.views.login'),
     url(r'^accounts/logout/$', 'django.contrib.auth.views.logout', name="logget_out"),
