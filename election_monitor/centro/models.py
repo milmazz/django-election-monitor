@@ -22,9 +22,6 @@ class Centro(models.Model):
     mesas = models.PositiveIntegerField()
     latitud = models.CharField(max_length=16, blank=True)
     longitud = models.CharField(max_length=16, blank=True)
-    # TODO: DELETE
-    responsable = models.CharField(max_length=128, blank=True, null=True)
-    telefono_responsable = models.CharField(max_length=32, blank=True, null=True)
 
     class Meta:
         verbose_name_plural = "Centros de votación"
