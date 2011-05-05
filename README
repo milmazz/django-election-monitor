@@ -1,0 +1,11 @@
+Instalacion
+===========
+
+Dependencias
+------------
+
+ * Django (>= 1.3)
+ * PostgreSQL o SQLite o MySQL, etc.
+ * Bindings de Python para bases de datos seleccionada
+ * python-slimmer
+ * django-static
