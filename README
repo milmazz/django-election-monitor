@@ -9,3 +9,4 @@ Dependencias
  * Bindings de Python para bases de datos seleccionada
  * python-slimmer
  * django-static
+ * django-smart-selects
