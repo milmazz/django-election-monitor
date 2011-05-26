@@ -125,7 +125,7 @@ INSTALLED_APPS = (
     'django_static',
     'election_monitor.centro',
     'election_monitor.ubicacion',
-    'election_monitor.exitpolls',
+#    'election_monitor.exitpolls', # No esta el modulo
 )
 
 # A sample logging configuration. The only tangible logging
